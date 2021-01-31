@@ -1,0 +1,46 @@
+body {
+  background: rgba(220, 120, 120, 0.1);
+}
+
+table{
+    margin:20px 32%;
+}
+
+td{
+    border:1px dotted black;
+    border-collapse:collapse;
+    padding:4vh;
+    font-size:0px;
+}
+
+header {
+  float: right;
+  width: 1000px;
+  color: rgb(125, 130, 191);
+}
+
+
+.table {
+  float: right;
+}
+
+.array3 {
+  border-color: rgb(169, 169, 169);
+  border-width: 4px;
+}
+
+.array0{
+    background: rgba(0, 200, 100, 0.8);
+}
+
+.array0:hover{
+  background: rgb(70, 70, 230)
+}
+
+.array1{
+    background: rgb(0, 200, 0);
+}
+
+.array-1{
+    background: rgb(200, 0, 0);
+}
