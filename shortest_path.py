@@ -72,6 +72,9 @@ if __name__ == '__main__':
                       [1, -1, 1, 1, 1, 1, 1, 1, 1],
                       [1, 1, 1, 1, 1, 1, 1, 1, 1]], dtype='int32')
     
+    space[int(starting_row), int(starting_column)] = 3
+    space[int(ending_row), int(ending_column)] = 3
+
     original_space = numpy2html(space)
     print("Finding the shortest path .........................")
 
